@@ -1,3 +1,129 @@
-body{
-	background: yellow;
+header{
+	background: #1a1915 url('../img/bg_mobile.png') {
+		repeat: no-repeat;
+		size: cover;
+	};
+
+	.container {
+	    padding: 18px 0 123px;
+	}
+}
+
+.auth__line {
+	@extend %main;
+	display: inline-block;
+    line-height: 36px;
+	width: 86px;
+  	height: 32px;
+	margin-right: 8px;
+    margin-left: -16px;
+	border: 2px solid transparent {
+		radius: 18px;
+	};
+
+	&:hover {
+		border: 2px solid #fff;
+	}
+}
+
+.auth {
+	text-align: center;
+	margin-bottom: 119px;
+}
+
+.logo {
+	@extend %main;
+	font-size: 20px;
+	margin-bottom: 30px;
+	letter-spacing: 0.9px;
+}
+
+.logo--text {
+	@extend %main;
+
+	h1 {
+		text-transform: uppercase;
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	h2 {
+		font-family: 'Roboto-Light';
+		font-size: 18px;
+		margin: 10px auto;
+		line-height: 21px;
+		width: 218px;
+	}
+}
+
+.header__btn {
+	@extend %main;
+	display: block;
+	width: 280px;
+	height: 40px;
+	margin: 15px auto;
+	border-radius: 20px;
+	background-color: $red;
+	line-height: 40px;
+	
+}
+
+
+
+@include respond-to(tablet) {
+    header {
+        background: rgb(26, 25, 21) url('../img/bg_tablet.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .container {
+            padding: 36px 42px 220px 40px;
+        }
+    }
+
+    .auth {
+    	text-align: right;
+    	margin-bottom: 142px;
+    }
+
+    .logo {
+    	top: 48px;
+    	left: 48px;
+    	position: absolute;
+    }
+
+    .logo--text {
+    	h1 {
+    		font-size: 52px;
+    		line-height: 63px;
+    	}
+    	h2 {
+    		width: 100%;
+    		font-size: 24px;
+    		margin: 28px auto 37px;
+    	}
+    }
+
+    .header__btn {
+	    width: 230px;
+    }
+
+}
+
+@include respond-to(desktop) {
+    header {
+        background: rgb(26, 25, 21) url('../img/bg_desktop.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .container {
+            width: 958px;
+            margin: 0 auto;
+            padding: 36px 26px 220px;
+        }
+
+        .logo {
+            left: 250px;
+        }
+    }
 }

@@ -2,20 +2,172 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
-	
+	<!--[if lt IE 9]>
+   <script src="js/ie.libs.min.js"></script>
+   <![endif]-->
+   <!--[if IE 8]>
+   <link rel="stylesheet" href="css/ie.css">
+   <![endif]-->
+
+	<script
+	  src="https://code.jquery.com/jquery-1.4.2.min.js"
+	  integrity="sha256-4joqTi18K0Hrzdj/wGed9xQOt/UuHuur+CeogYJkPFk="
+	  crossorigin="anonymous">
+	 </script>
+
 </head>
 <body>
-	<div>
+	<div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="auth">
+					<a href="#" class="auth__line">Log in</a>
+					<a href="#" class="auth__line">Sign up</a>
+				</div>
+				<div class="logo">URLAUBSGLÜCK</div>
+				<div class="logo--text">
+					<h1>Share your<br>holiday dreams</h1>
+					<h2>And find the perfect partner to fullfill it</h2>
+				</div>
+				<a href="#" class="header__btn">Find your holiday partner</a>
+			</div>
+		</header>
+		<div class="work-block">
+			<h1 class="section__header">How Urlaubsglück works?</h1>
+			<div class="container">
+				<div class="step1 shown">
+					<div class="step__content">
+						<a href="#" class="step__btn"> step 1</a>
+						<h2>Sed leo enim, condimentum</h2>
+						<p>Quisque libero libero, dictum non turpis in, luctus semper
+							lorem. Donec rhoncus a leo sit amet facilisis.</p>
+					</div>
+				</div>
+				<div class="step2 hidden">
+					<div class="step__content">
+						<a href="#" class="step__btn"> step 2</a>
+						<h2>Morbi velit risus</h2>
+						<p>Nulla venenatis tempor dui in molestie. Nulla quis dictum
+							 purus, sit amet porttitor est.</p>
+					</div>
+				</div>
+				<div class="step3">
+					<div class="step__content">
+						<a href="#" class="step__btn"> step 3</a>
+						<h2>Sed leo enim, condimentum</h2>
+						<p>Quisque libero libero, dictum non turpis in, luctus semper
+							lorem. Donec rhoncus a leo sit amet facilisis.</p>
+					</div>
+				</div>
+			</div>
+
+			<!--
+			<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+			<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+			<div class="step1">
+				<div class="step__content">
+					<a href="#" class="step__btn"> step 1</a>
+					<h2>Sed leo enim, condimentum</h2>
+					<p>Quisque libero libero, dictum non turpis in, luctus semper
+						lorem. Donec rhoncus a leo sit amet facilisis.</p>
+				</div>
+			</div>
+			<div class="step2">
+				<div class="step__content">
+					<a href="#" class="step__btn"> step 2</a>
+					<h2>Morbi velit risus</h2>
+					<p>Nulla venenatis tempor dui in molestie. Nulla quis dictum
+						 purus, sit amet porttitor est.</p>
+				</div>
+			</div>
+			<div class="step3">
+				<div class="step__content">
+					<a href="#" class="step__btn"> step 3</a>
+					<h2>Sed leo enim, condimentum</h2>
+					<p>Quisque libero libero, dictum non turpis in, luctus semper
+						lorem. Donec rhoncus a leo sit amet facilisis.</p>
+				</div>
+			</div>-->
+
+		</div>
+		<div class="partner-block">
+			<h1 class="partner-block__header section__header">Meet a partner for your best holiday</h1>
+			<div class="partners clearfix">
+				<div class="partner-block__partner partner1">
+					<a href="#" class="partner__avatar partner__avatar--1">
+						<img src="img/partner_block/partner1.jpg" alt="Bradley Hunter's photo">
+					</a>
+					<div class="content">
+						<h3 class="name">Bradley Hunter</h3>
+						<p class="info">Based in Chicago. I love playing tennis and loud music.</p>
+					</div>
+				</div>
+				<div class="partner-block__partner partner2">
+					<a href="#" class="partner__avatar partner__avatar--2">
+						<img src="img/partner_block/partner2.jpg" alt="Lucas Marsha's photo">
+					</a>
+					<div class="content">
+						<h3 class="name">Lucas Marsha</h3>
+						<p class="info">I get my inspiration from nature and objects around me.
+							 I have a passion to colours, typograghy and skateboards.</p>
+					</div>
+				</div>
+				<div class="partner-block__partner partner3">
+					<a href="#" class="partner__avatar partner__avatar--3">
+						<img src="img/partner_block/partner3.jpg" alt="Heather Walker's photo">
+					</a>
+					<div class="content">
+						<h3 class="name">Heather Walker</h3>
+						<p class="info">I'm a happy person that loves cats and climbing on mountains. </p>
+					</div>
+				</div>
+				<div class="partner-block__partner partner4">
+					<a href="#" class="partner__avatar partner__avatar--4">
+						<img src="img/partner_block/partner4.jpg" alt="Bradley Hunter's photo">
+					</a>
+					<div class="content">
+						<h3 class="name">Bradley Hunter</h3>
+						<p class="info">Based in Chicago. I love playing tennis and loud music.</p>
+					</div>
+				</div>
+			</div>
+				<a href="#" class="partner-block--search">See other partners</a>
+		</div>
+		<div class="ideas-block">
+			<div class="container">
+				<h1 class="section__header ideas-block__header1">Discover holiday activity ideas</h1>
+				<div class="ideas-block__searchResult"></div>
+				<h1 class="section__header ideas-block__header2">Discover holiday activity ideas</h1>
+				<p class="ideas-block__searchHead">Hi! What are your holiday interests?</p>
+				<div class="ideas-block__search">
+					<input class="searchTxt" type="text" placeholder="Enter your interests" autocomplete="on">
+					<a href="#" class="header__btn searchBtn">Search partners</a>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<h3>URLAUBSGLÜCK</h3>
+			<nav>
+				<h4>Company</h4>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="">Contacts</a></li>
+					<li><a href="">Press</a></li>
+					<li><a href="">Blog</a></li>
+				</ul>
+			</nav>
+			<h4>Partners</h4>
+			<div class="design">
+				<h5>designed by</h5>
+				<a href="#"></a>
+			</div>
+		</footer>
 	</div>
-	
-
-
-
 	<script src="js/libs.min.js"></script>
 	<script src="js/common.js"></script>
-	
 </body>
 </html>

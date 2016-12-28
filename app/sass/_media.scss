@@ -1,0 +1,22 @@
+@mixin respond-to($media) {
+/* Custom, iPhone Retina */
+    @if $media == retina {
+        @media only screen and (min-width : 320px) { @content; }
+    }
+/* Extra Small Devices, Phones */
+    @if $media == phone {
+        @media only screen and (min-width : 480px) { @content; }
+    }
+/* Small Devices, Tablets */
+    @if $media == tablet {
+        @media only screen and (min-width : 768px) { @content; }
+    }
+/* Medium Devices, Desktops */
+    @if $media == desktop {
+        @media only screen and (min-width : 992px) { @content; }
+    }
+    /* Large Devices, Wide Screens */
+    @if $media == wide-desktop {
+        @media only screen and (min-width : 1200px) { @content; }
+    }
+}

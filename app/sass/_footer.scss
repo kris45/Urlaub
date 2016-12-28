@@ -1,0 +1,111 @@
+footer {
+    h3 {
+        font-size: 16px;
+        font-family: 'Montserrat-Bold';
+        color: $red;
+        text-align: center;
+        letter-spacing: 0.9px;
+        margin: 18px 0 14px;
+    }
+
+    h4 {
+        @extend %main;
+        color: #333;
+    }
+
+    nav {
+        text-align: center;
+        ul {
+            margin: 5px 0 15px 6px;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        a {
+            font-family: 'Roboto-Light';
+            color: #666;
+            padding-right: 9px;
+            font-size: 14px;
+        }
+    }
+
+    .design {
+        margin: 17px 0;
+        h5 {
+            font-size: 10px;
+            font-family: 'Roboto-Bold';
+            text-transform: uppercase;
+            color: #ccc;
+            text-align: center;
+            letter-spacing: 1.5px;
+        }
+        a {
+            display: block;
+            background: url(../img/design.png);
+            width: 110px;
+            height: 26px;
+            text-align: center;
+            margin: 7px auto;
+        }
+    }
+}
+
+@include respond-to(tablet){
+    footer {
+        height: 196px;
+        padding-top: 38px;
+        position: relative;
+        width: 690px;
+        margin: 0 auto;
+
+        h3 {
+            float: left;
+            margin: 0;
+        }
+        h4 {
+            text-align: left;
+        }
+
+        & > h4 {
+            margin-left: 398px;
+        }
+
+        nav {
+            float: left;
+            text-align: left;
+            margin-left: 83px;
+            ul {
+                margin: 13px 0;
+            }
+            li {
+                display: block;
+                line-height: 23px;
+            }
+        }
+
+        .design {
+            position: absolute;
+            top: 23px;
+            right: 0;
+            h5 {
+                text-align: right;
+            }
+        }
+    }
+}
+
+@include respond-to(desktop) {
+    footer {
+        width: 940px;
+        nav {
+            margin-left: 96px;
+        }
+        & > h4 {
+            margin-left: 401px;
+        }
+    }
+
+
+}

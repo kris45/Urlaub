@@ -1,0 +1,140 @@
+.section__header {
+    @extend %main;
+    margin: 37px auto 16px;
+    color: #333;
+    font-size: 22px;
+    width: 300px;
+}
+.work-block {
+    .step1 {
+        @extend %stepMb;
+        background-image: url("../img/slider/step1_mb.png");
+    }
+
+    .step2 {
+        @extend %stepMb;
+        background-image: url("../img/slider/step2_mb.png");
+    }
+
+    .step3 {
+        @extend %stepMb;
+        background-image: url("../img/slider/step3_mb.png");
+    }
+}
+
+.step__content {
+        padding: 0 20px;
+        position: absolute;
+        bottom: 17px;
+
+        h2 {
+            @extend %main;
+            font-size: 24px;
+            width: 200px;
+            padding: 16px 0 13px;
+            line-height: 28px;
+            text-align: left;
+
+        }
+
+        p {
+            color: #ccc;
+            font-family: 'Roboto-Light';
+            font-size: 14px;
+            line-height: 16px;
+        }
+}
+
+.step__btn {
+    background: $red;
+    border-radius: 20px;
+    width: 70px;
+    height: 20px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Montserrat-Regular';
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1.8px;
+}
+
+
+@include respond-to(tablet) {
+    .section__header {
+        margin: 96px auto 26px;
+            padding-left: 7px;
+    }
+
+    .work-block {
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .step1 {
+            height: 400px;
+            width: 235px;
+            display: inline-block;
+            background-image: url("../img/slider/step1_tb.png");
+            .step__content {
+                bottom: 19px;
+            }
+        }
+
+        .step2 {
+            height: 400px;
+            width: 235px;
+            display: inline-block;
+            background-image: url("../img/slider/step2_tb.png");
+        }
+
+        .step3 {
+            height: 400px;
+            width: 235px;
+            display: inline-block;
+            background-image: url("../img/slider/step3_tb.png");
+        }
+
+        .step__content {
+            padding: 0 17px;
+
+            a {
+                margin-left: 3px;
+            }
+        }
+    }
+}
+
+
+@include respond-to(desktop) {
+
+    .section__header {
+            padding-left:0;
+    }
+
+    .container {
+        width: 958px;
+        margin: 0 auto;
+    }
+
+    .work-block {
+        .step1 {
+            background-image: url(../img/slider/step1_dt.png);
+            width: 300px;
+            height: 400px;
+        }
+        .step2 {
+            background-image: url(../img/slider/step2_dt.png);
+            width: 300px;
+            height: 400px;
+        }
+        .step3 {
+            background-image: url(../img/slider/step3_dt.png);
+            width: 300px;
+            height: 400px;
+        }
+
+    }
+
+}

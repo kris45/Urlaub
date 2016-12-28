@@ -1,0 +1,25 @@
+%main {
+    color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
+	text-align: center;
+    font-size: 14px;
+}
+
+%stepMb {
+    height: 240px;
+    width: 300px;
+    margin: 10px auto;
+    position: relative;
+}
+
+%stepTb {
+    height: 400px;
+    width: 235px;
+    display: inline-block;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
