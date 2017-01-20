@@ -3,6 +3,7 @@
     font-family: 'Montserrat-Bold', sans-serif;
 	text-align: center;
     font-size: 14px;
+    font-weight: 700;
 }
 
 %stepMb {
@@ -18,8 +19,14 @@
     display: inline-block;
 }
 
-.clearfix::after {
+.clearfix:after {
     content: "";
     display: block;
     clear: both;
+}
+
+%ieBR {
+    behavior: url("../libs/pie/PIE.htc");
+    position: relative;
+    zoom: 1;
 }

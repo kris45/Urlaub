@@ -14,7 +14,7 @@
     height: 120px;
     margin: 0px auto;
 
-    &::before {
+    &:before {
         display: block;
         position: absolute;
         right: -4px;
@@ -28,7 +28,7 @@
         border-radius: 50%;
     }
 
-    &::after {
+    &:after {
         display: block;
         position: absolute;
         right: 9px;
@@ -47,41 +47,41 @@
 }
 
 .partner__avatar--1 {
-    &::before {
+    &:before {
         background-color: $red;
     }
 
-    &::after {
+    &:after {
         @include sprite($icon-avatar1);
     }
 }
 
 .partner__avatar--2 {
-    &::before {
+    &:before {
         background-color: #ffa507;
     }
 
-    &::after {
+    &:after {
         @include sprite($icon-avatar3);
     }
 }
 
 .partner__avatar--3 {
-    &::before {
+    &:before {
         background-color: #1cd7ad;
     }
 
-    &::after {
+    &:after {
         @include sprite($icon-avatar2);
     }
 }
 
 .partner__avatar--4 {
-    &::before {
+    &:before {
         background-color: #4e73db;
     }
 
-    &::after {
+    &:after {
         @include sprite($icon-avatar4);
     }
 }
@@ -99,6 +99,7 @@
         margin: 16px auto 0;
         color: #666;
         font-family: 'Roboto-Light';
+        font-weight: 300;
         font-size: 14px;
         line-height: 17px;
     }

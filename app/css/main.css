@@ -1,64 +1,119 @@
 @font-face {
-  font-family: 'Montserrat-Bold';
-  src: url("../fonts/Montserrat-Bold.ttf") format("truetype"); }
-
-@font-face {
   font-family: 'Montserrat-Regular';
-  src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); }
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat-Regular"), url("../fonts/Montserrat.woff2") format("woff2"), url("../fonts/Montserrat.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 @font-face {
-  font-family: 'Roboto-Black';
-  src: url("../fonts/Roboto-Black.ttf") format("truetype"); }
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat-Bold"), url("../fonts/Montserrat-bold.woff2") format("woff2"), url("../fonts/Montserrat-bold.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
-@font-face {
-  font-family: 'Roboto-BlackItalic';
-  src: url("../fonts/Roboto-BlackItalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Roboto-Bold';
-  src: url("../fonts/Roboto-Bold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Roboto-BoldItalic';
-  src: url("../fonts/Roboto-BoldItalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Roboto-Italic';
-  src: url("../fonts/Roboto-Italic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Roboto-Light';
-  src: url("../fonts/Roboto-Light.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Roboto-LightItalic';
-  src: url("../fonts/Roboto-LightItalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Roboto-Medium';
-  src: url("../fonts/Roboto-Medium.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Roboto-MediumItalic';
-  src: url("../fonts/Roboto-MediumItalic.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Roboto-Regular';
-  src: url("../fonts/Roboto-Regular.ttf") format("truetype"); }
-
+/* latin */
 @font-face {
   font-family: 'Roboto-Thin';
-  src: url("../fonts/Roboto-Thin.ttf") format("truetype"); }
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Thin"), local("Roboto-Thin"), url("../fonts/Roboto-Thin.woff2") format("woff2"), url("../fonts/Roboto-Thin.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
+/* latin */
 @font-face {
-  font-family: 'Roboto-ThinItalic';
-  src: url("../fonts/Roboto-ThinItalic.ttf") format("truetype"); }
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto-Black';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Roboto Black"), local("Roboto-Black"), url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url("../fonts/Roboto-ThinItalic.woff2") format("woff2"), url("../fonts/Roboto-ThinItalic.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Roboto Light Italic"), local("Roboto-LightItalic"), url("../fonts/Roboto-LightItalic.woff2") format("woff2"), url("../fonts/Roboto-LightItalic.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Italic"), local("Roboto-Italic"), url("../fonts/Roboto-Italic.woff2") format("woff2"), url("../fonts/Roboto-Italic.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"), url("../fonts/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/Roboto-MediumItalic.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("../fonts/Roboto-BoldItalic.woff2") format("woff2"), url("../fonts/Roboto-BoldItalic.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Roboto Black Italic"), local("Roboto-BlackItalic"), url("../fonts/Roboto-BlackItalic.woff2") format("woff2"), url("../fonts/Roboto-BlackItalic.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 .auth__line, .logo, .logo--text, .header__btn, footer h4, .section__header, .step__content h2, .content .name, .partner-block--search {
   color: #fff;
   font-family: 'Montserrat-Bold', sans-serif;
   text-align: center;
-  font-size: 14px; }
+  font-size: 14px;
+  font-weight: 700; }
 
 .work-block .step1, .work-block .step2, .work-block .step3 {
   height: 240px;
@@ -66,7 +121,7 @@
   margin: 10px auto;
   position: relative; }
 
-.clearfix::after {
+.clearfix:after {
   content: "";
   display: block;
   clear: both; }
@@ -108,6 +163,7 @@ header {
 .logo--text h2 {
   font-family: 'Roboto-Light';
   font-size: 18px;
+  font-weight: 300px;
   margin: 10px auto;
   line-height: 21px;
   width: 218px; }
@@ -119,6 +175,7 @@ header {
   margin: 15px auto;
   -webkit-border-radius: 20px;
           border-radius: 20px;
+  behavior: url(../libs/pie/PIE.htc);
   background-color: #ff4e50;
   line-height: 40px; }
 
@@ -163,14 +220,16 @@ header {
     header .container {
       width: 958px;
       margin: 0 auto;
-      padding: 36px 26px 220px; }
+      padding: 36px 26px 220px;
+      position: relative; }
     header .logo {
-      left: 250px; } }
+      left: 140px; } }
 
 /* Large Devices, Wide Screens */
 footer h3 {
   font-size: 16px;
   font-family: 'Montserrat-Bold';
+  font-weight: 700;
   color: #ff4e50;
   text-align: center;
   letter-spacing: 0.9px;
@@ -187,6 +246,7 @@ footer nav {
     display: inline-block; }
   footer nav a {
     font-family: 'Roboto-Light';
+    font-weight: 300;
     color: #666;
     padding-right: 9px;
     font-size: 14px; }
@@ -196,6 +256,7 @@ footer .design {
   footer .design h5 {
     font-size: 10px;
     font-family: 'Roboto-Bold';
+    font-weight: 700;
     text-transform: uppercase;
     color: #ccc;
     text-align: center;
@@ -285,6 +346,7 @@ footer .design {
     color: #ccc;
     font-family: 'Roboto-Light';
     font-size: 14px;
+    font-weight: 300;
     line-height: 16px; }
 
 .step__btn {
@@ -296,6 +358,7 @@ footer .design {
   text-transform: uppercase;
   font-size: 10px;
   font-family: 'Montserrat-Regular';
+  font-weight: 400;
   color: #fff;
   display: block;
   text-align: center;
@@ -366,50 +429,50 @@ footer .design {
     height: 400px; } }
 
 /* Large Devices, Wide Screens */
-/*
-SCSS variables are information about icon's compiled state, stored under its original file name
-
-.icon-home {
-  width: $icon-home-width;
-}
-
-The large array-like variables contain all information about a single icon
-$icon-home: x y offset_x offset_y width height total_width total_height image_path;
-
-At the bottom of this section, we provide information about the spritesheet itself
-$spritesheet: width height image $spritesheet-sprites;
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
 */
-/*
-The provided mixins are intended to be used with the array-like variables
-
-.icon-home {
-  @include sprite-width($icon-home);
-}
-
-.icon-email {
-  @include sprite($icon-email);
-}
-
-Example usage in HTML:
-
-`display: block` sprite:
-<div class="icon-home"></div>
-
-To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
-
-// CSS
-.icon {
-  display: inline-block;
-}
-
-// HTML
-<i class="icon icon-home"></i>
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
 */
-/*
-The `sprites` mixin generates identical output to the CSS template
-  but can be overridden inside of SCSS
-
-@include sprites($spritesheet-sprites);
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
 */
 .partner-block__partner {
   text-align: center;
@@ -424,7 +487,7 @@ The `sprites` mixin generates identical output to the CSS template
   width: 120px;
   height: 120px;
   margin: 0px auto; }
-  .partner__avatar::before {
+  .partner__avatar:before {
     display: block;
     position: absolute;
     right: -4px;
@@ -439,7 +502,7 @@ The `sprites` mixin generates identical output to the CSS template
             border-image: initial;
     -webkit-border-radius: 50%;
             border-radius: 50%; }
-  .partner__avatar::after {
+  .partner__avatar:after {
     display: block;
     position: absolute;
     right: 9px;
@@ -454,37 +517,37 @@ The `sprites` mixin generates identical output to the CSS template
     -webkit-border-radius: 50%;
             border-radius: 50%; }
 
-.partner__avatar--1::before {
+.partner__avatar--1:before {
   background-color: #ff4e50; }
 
-.partner__avatar--1::after {
+.partner__avatar--1:after {
   background-image: url(../img/sprite.png);
   background-position: -64px -19px;
   width: 16px;
   height: 16px; }
 
-.partner__avatar--2::before {
+.partner__avatar--2:before {
   background-color: #ffa507; }
 
-.partner__avatar--2::after {
+.partner__avatar--2:after {
   background-image: url(../img/sprite.png);
   background-position: -64px -37px;
   width: 13px;
   height: 16px; }
 
-.partner__avatar--3::before {
+.partner__avatar--3:before {
   background-color: #1cd7ad; }
 
-.partner__avatar--3::after {
+.partner__avatar--3:after {
   background-image: url(../img/sprite.png);
   background-position: -64px 0px;
   width: 16px;
   height: 17px; }
 
-.partner__avatar--4::before {
+.partner__avatar--4:before {
   background-color: #4e73db; }
 
-.partner__avatar--4::after {
+.partner__avatar--4:after {
   background-image: url(../img/sprite.png);
   background-position: 0px -57px;
   width: 17px;
@@ -499,6 +562,7 @@ The `sprites` mixin generates identical output to the CSS template
   margin: 16px auto 0;
   color: #666;
   font-family: 'Roboto-Light';
+  font-weight: 300;
   font-size: 14px;
   line-height: 17px; }
 
@@ -582,7 +646,7 @@ The `sprites` mixin generates identical output to the CSS template
     -webkit-border-radius: 4px;
             border-radius: 4px;
     overflow: hidden; }
-    .ideas-block__searchResult .pic__block::after {
+    .ideas-block__searchResult .pic__block:after {
       display: block;
       position: absolute;
       top: 0;
@@ -619,7 +683,8 @@ input.searchTxt[type="text"] {
   -webkit-border-radius: 4px;
           border-radius: 4px;
   padding: 0 15px;
-  font-family: 'Roboto-Light'; }
+  font-family: 'Roboto-Light';
+  font-weight: 300; }
 
 .searchBtn {
   margin: 10px auto; }

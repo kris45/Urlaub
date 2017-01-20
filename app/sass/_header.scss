@@ -19,7 +19,7 @@ header{
     margin-left: -16px;
 	border: 2px solid transparent {
 		radius: 18px;
-	};
+	}
 
 	&:hover {
 		border: 2px solid #fff;
@@ -50,6 +50,7 @@ header{
 	h2 {
 		font-family: 'Roboto-Light';
 		font-size: 18px;
+		font-weight: 300px;
 		margin: 10px auto;
 		line-height: 21px;
 		width: 218px;
@@ -63,6 +64,7 @@ header{
 	height: 40px;
 	margin: 15px auto;
 	border-radius: 20px;
+	behavior: url(../libs/pie/PIE.htc);
 	background-color: $red;
 	line-height: 40px;
 	
@@ -120,10 +122,11 @@ header{
             width: 958px;
             margin: 0 auto;
             padding: 36px 26px 220px;
+			position: relative;
         }
 
         .logo {
-            left: 250px;
+            left: 140px;
         }
     }
 }

@@ -96,11 +96,18 @@ gulp.task('watch', ['browser-sync', 'cssmin', 'scripts', 'ie-libs'], function(){
 
 gulp.task('build', ['clean', 'sass', 'scripts'], function(){
 
-	var buildCss = gulp.src('app/css/main.min.css')
+	var buildCss = gulp.src([
+		'app/css/main.min.css',
+		'app/css/reset.css',
+		'app/css/ie.css'
+	])
 	.pipe(gulp.dest('dist/css'));
 
 	var buildFonts = gulp.src('app/fonts/**/*')
 	.pipe(gulp.dest('dist/fonts'));
+	
+	var buidImg = gulp.src('app/img/**/*')
+	.pipe(gulp.dest('dist/img'));
 
 	var buildJs = gulp.src('app/js/**/*')
 	.pipe(gulp.dest('dist/js'));
